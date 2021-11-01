@@ -1,0 +1,300 @@
+.w-layout-grid{
+    display: -ms-grid;
+    display: grid;
+    grid-auto-columns: 1fr;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+    grid-row-gap: 16px;
+    grid-column-gap: 16px;
+}
+.section{
+    position: -webkit-sticky;
+    position: sticky;
+    width: auto;
+    height: 125px;
+    max-height: 150px;
+    max-width: 1440px;
+    background-color: rgba(37, 37, 37, 0.6);
+    background-clip: border-box;
+    -webkit-text-fill-color: inherit;
+    -o-object-fit: fill;
+    object-fit: fill;
+
+}
+.hero{
+    height: auto;
+    -o-object-fit: fill;
+    object-fit: fill;
+}
+.navbar{
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0%;
+    top:0%;
+    right:0%;
+    bottom: auto;
+    width: auto;
+    height: 125px;
+    max-height:125px;
+    background-color: rgba(37, 37, 37, 0.6);
+    -o-object-fit: fill;
+    object-fit: fill;
+}
+.nav-link{
+    margin:34px 0px 34px 130px;
+    padding: 10px;
+    font-family: 'Suez One', serif;
+    color: #fffeed;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    -o-object-fit: fill;
+    object-fit: fill;
+}
+.nav-link1{
+    font-family: 'Suez One', serif;
+    color: #fffeed;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+.brand{
+    background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+    background-position: 0px 0px;
+    background-size: auto;
+}
+.brand.w--current{
+    position: absolute;
+    left: 0%;
+    top:0%;
+    right: auto;
+    bottom: 0%;
+    width: 185px;
+    height: 85px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    background-image: url('../images/Logo-Box.png');
+}
+.container{
+    position: absolute;
+    left: 0%;
+    top:0%;
+    right: 0%;
+    bottom: auto;
+    display: -webkit-box;
+    display:-webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto;
+    padding-top:0px;
+    padding-bottom:0px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    -o-object-fit: fill;
+    object-fit: fill;
+}
+.image{
+    position: relative;
+    height: auto;
+    margin-left: 0px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.heading{
+    position: static;
+    right: auto;
+    bottom: auto;
+    display: inline;
+    margin-top: 10px;
+    background-color: transparent;
+    font-family: 'Rowdies', cursive;
+    color: #fffeed;
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 400;
+    background-clip: border-box;
+    -webkit-text-fill-color: inherit;
+}
+.heading.h1{
+    left:0px;
+    top:0px;
+    right:0px;
+    bottom: auto;
+    margin-top: 311px;
+    margin-left: 60px;
+    padding-left:0px;
+
+}
+.div-block{
+    position: relative;
+}
+.heading-2{
+    position: absolute;
+}
+.heading-2.h2{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: auto;
+    bottom: auto;
+    margin-top: 429px;
+    margin-bottom: 0px;
+    margin-left: 60px;
+    padding-right: 0px;
+    padding-bottom: 180px;
+    padding-left: 0px;
+    font-family: 'Rowdies', cursive;
+    color: #fffeed;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 400px;
+}
+.image-2{
+    position: absolute;
+    margin-top: 75px;
+    margin-bottom: 130px;
+    margin-left: 60px;
+    padding-top: 351px;
+}
+.button{
+    position: absolute;
+    left: 0%;
+    top:0%;
+    right: auto;
+    bottom: 0%;
+    z-index: 100;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 178px;
+    height: 44px;
+    margin-top: 153px;
+    margin-bottom: 0px;
+    margin-left: 349px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack:center;
+    justify-content: center;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap:nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #ffe179;
+    font-family: 'Suez One', sans-serif;
+    color: #06020C;
+    text-align: center;
+    text-decoration: none;
+    -o-object-fit: fill;
+    object-fit: fill;
+}
+.container-2{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: auto;
+    bottom: 0%;
+    -o-object-fit: fill;
+    object-fit: fill;
+}
+.div-block-2{
+    position: absolute;
+    left: auto;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    z-index: auto;
+    width: 420px;
+    height: 250px;
+    margin-top: 356px;
+    margin-bottom: 210px;
+    margin-left: 70px;
+    -o-object-fit: fill;
+    object-fit: fill;
+
+}
+.heading-3{
+    margin-top: 234px;
+
+}
+.nav-menu{
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.heading-4{
+    margin-top: 0px;
+    font-family: 'Suez One', sans-serif;
+    color: #fffeed;
+    font-size: 24px;
+    line-height: 30px;
+}
+.image-3{
+    position: absolute;
+    left:0%;
+    top: 0%;
+    right: auto;
+    bottom: 0%;
+    margin-top: 116px;
+    margin-bottom: 0px;
+}
+.button-2{
+    position:static;
+    left: 0%;
+    top: auto;
+    right: auto;
+    bottom: 0%;
+    margin-top: 45px;
+    padding: 10px 50px;
+    background-color: #ffe179;
+    font-family: 'Suez One', sans-serif;
+    color:#06020C;
+
+}
+.section-2 {
+    width: 1440px;
+    height: 1449px;
+    background-color: hsla(0, 0%, 100%, 0.6)
+}
+.div-block-3 {
+    position: relative;
+    height: 125px;
+    background-color:#06020C;
+}
