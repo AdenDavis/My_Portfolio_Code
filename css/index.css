@@ -298,6 +298,9 @@
     height: 125px;
     background-color:#06020C;
 } */
+.background{
+    background-color: transparent;
+}
 .w-layout-grid {
     display: -ms-grid;
     display: grid;
@@ -308,42 +311,57 @@
     grid-template-rows: auto auto;
     grid-row-gap: 16px;
     grid-column-gap: 16px;
-    background-color: red;
 }
 .wf-section {
     position: relative;
     width: auto;
     height: auto;
-    background-color: seagreen;
+
 }
 .hero {
     color: #fffeed;
     background-color: transparent;
     height: auto;
+    width: 100%;
+
 }
 .container-4 {
-    background-color:rgba(37, 37, 37, 0.6);
-    justify-content: center;
     display: flex;
-    width: auto;
-    height: 125px;
+    height:auto;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
+    z-index: 100;
+
 }
 .container-4.w-container{
-    background-image: url(file:///Users/adendavis/Desktop/Logo%20Small.png);
-    background-repeat: no-repeat;
-    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: 125px;
 }
 .nav-menu {
     display: flex;
-    margin-left: auto;
     flex-direction: row;
     align-items: center;
-    width: fill;
+    justify-content: right;
+    width: 100%;
     position: absolute;
-
+    background-color: rgba(37, 37, 37, 0.6);
+    background-image: url(file:///Users/adendavis/Desktop/Logo%20Long.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: auto;
+    height: auto;
 }
+/* .w-icon-nav-menu{
+    display: flex;
+    background-image:url(file:///Users/adendavis/Desktop/Logo%20Long.png);
+    justify-content: center;
+    align-items: center;
+    position: static;
+    z-index: 200; */
+
 .div-block-2 {
     position: absolute;
     width: auto;
@@ -356,16 +374,19 @@
 .nav-link {
     font-size: 18px;
     margin: 34px 0px 34px 130px;
-    padding: 10px;
+    padding: 20px;
     font-family: 'Suez One', cursive;
     color: #fffeed;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 25px;
 }
 
 .button {
     position: absolute;
     left: 40%;
     top: auto;
-    bottom: -12%;
+    bottom: -35px;
     z-index: 100;
     display: flex;
     width: 178px;
@@ -416,23 +437,41 @@
 .heroImage{
     object-fit: fill;
     object-position: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     background-repeat: no-repeat;
     width: 100%;
+    justify-content: center;
+    margin-top: 10px;
 }
 .section-2{
     width: 100%;
+    justify-content: center;
 
 }
+.cs1Image{
+    justify-content: center;
+    position:relative;
+    display: flex;
+    flex: auto;
+    width: 100%;
+}
+.cs2Image{
+    justify-content: center;
+    position:relative;
+    display: flex;
+    flex: auto;
+    width: 100%;
+}
 .div-block-3{
-    position: relative;
+    position: static;
     display: flex;
     height: 125px;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
     color: #ffe179;
     background-color:#06020c;
+    width: 100%;
 }
 .heading-5{
     display: flex;
@@ -459,6 +498,7 @@
     margin-top: 208px;
     margin-bottom: 208px;
     background-color: rgba(37, 37, 37, 0.6);
+    border: 10px solid #ffe179;
 }
 .heading-6{
     font-family: Rowdies, sans-serif;
@@ -591,10 +631,11 @@
     width: 80%;
     padding-bottom: 70px;
 }
+
 .section-3{
     height: 200px;
     background-color: #06020c;
-    border: 10px solid #ffe179;
+    
 }
 .heading-13{
     font-family: 'Suez One',cursive;
@@ -661,5 +702,11 @@
 .section-4{
     display: flex;
     flex-direction: column;
-    border: 10px solid #ffe179;
+    
+}
+@media screen and (max-width: 479px) {
+    #node{
+    grid-column: auto;
+    justify-self: auto;
+    }
 }
